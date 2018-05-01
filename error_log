@@ -1,0 +1,67 @@
+[16-Apr-2018 10:06:47 UTC] PHP Warning:  require_once(/phpGrid_Enterprise/conf.php): failed to open stream: No such file or directory in /home/t4c/public_html/wp-content/themes/twentyseventeen/admin-page.php on line 14
+[16-Apr-2018 10:06:47 UTC] PHP Fatal error:  require_once(): Failed opening required '/phpGrid_Enterprise/conf.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t4c/public_html/wp-content/themes/twentyseventeen/admin-page.php on line 14
+[16-Apr-2018 10:14:25 UTC] PHP Warning:  require(/home/t4c/public_html/wp-content/themes/twentyseventeen/phpGrid_Enterprise/wp-load.php): failed to open stream: No such file or directory in /home/t4c/public_html/wp-content/themes/twentyseventeen/phpGrid_Enterprise/conf.php on line 3
+[16-Apr-2018 10:14:25 UTC] PHP Fatal error:  require(): Failed opening required '/home/t4c/public_html/wp-content/themes/twentyseventeen/phpGrid_Enterprise/wp-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t4c/public_html/wp-content/themes/twentyseventeen/phpGrid_Enterprise/conf.php on line 3
+[19-Apr-2018 10:31:13 UTC] PHP Notice:  Undefined variable: post in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 20
+[19-Apr-2018 10:31:13 UTC] PHP Notice:  Undefined variable: wp_error in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 20
+[19-Apr-2018 10:31:48 UTC] PHP Notice:  Undefined variable: wp_error in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 20
+[19-Apr-2018 11:10:26 UTC] PHP Notice:  Undefined index: id in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 29
+[19-Apr-2018 11:10:26 UTC] PHP Notice:  Undefined index: form_id in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 29
+[19-Apr-2018 11:10:26 UTC] PHP Notice:  Undefined index: date_created in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 29
+[19-Apr-2018 11:10:26 UTC] PHP Notice:  Undefined index: ip in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 29
+[19-Apr-2018 11:10:26 UTC] PHP Notice:  Undefined index: source_url in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 29
+[19-Apr-2018 11:10:26 UTC] PHP Notice:  Undefined index: currency in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 29
+[19-Apr-2018 11:10:26 UTC] PHP Notice:  Undefined index: created_by in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 29
+[19-Apr-2018 11:10:26 UTC] PHP Notice:  Undefined index: user_agent in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 29
+[19-Apr-2018 11:10:26 UTC] PHP Notice:  Undefined index: status in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 29
+[19-Apr-2018 11:10:26 UTC] PHP Notice:  Undefined index: 9.5 in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 29
+[19-Apr-2018 11:10:26 UTC] PHP Notice:  Undefined index: 9.4 in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 29
+[19-Apr-2018 11:10:26 UTC] PHP Notice:  Undefined index: 9.3 in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 29
+[19-Apr-2018 11:10:26 UTC] PHP Notice:  Undefined index: 9.2 in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 29
+[19-Apr-2018 11:10:26 UTC] PHP Notice:  Undefined index: 9.1 in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 29
+[19-Apr-2018 11:10:26 UTC] PHP Notice:  Undefined index: 6.3 in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 29
+[19-Apr-2018 11:10:26 UTC] PHP Notice:  Undefined index: 9.6 in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 29
+[20-Apr-2018 09:56:16 UTC] PHP Warning:  fopen(http://t4c.ydodev.com/wp-content/uploads/gravity_forms/4-77ee83c566db22568a804573b4383be2/2018/04/2018-04-10_18292-150x150.png): failed to open stream: HTTP wrapper does not support writeable connections in /home/t4c/public_html/wp-includes/class-wp-image-editor.php on line 407
+[20-Apr-2018 09:56:16 UTC] PHP Warning:  fopen(http://t4c.ydodev.com/wp-content/uploads/gravity_forms/4-77ee83c566db22568a804573b4383be2/2018/04/2018-04-10_18292-300x136.png): failed to open stream: HTTP wrapper does not support writeable connections in /home/t4c/public_html/wp-includes/class-wp-image-editor.php on line 407
+[20-Apr-2018 09:56:16 UTC] PHP Warning:  fopen(http://t4c.ydodev.com/wp-content/uploads/gravity_forms/4-77ee83c566db22568a804573b4383be2/2018/04/2018-04-10_18292-768x349.png): failed to open stream: HTTP wrapper does not support writeable connections in /home/t4c/public_html/wp-includes/class-wp-image-editor.php on line 407
+[20-Apr-2018 09:56:16 UTC] PHP Warning:  fopen(http://t4c.ydodev.com/wp-content/uploads/gravity_forms/4-77ee83c566db22568a804573b4383be2/2018/04/2018-04-10_18292-1024x466.png): failed to open stream: HTTP wrapper does not support writeable connections in /home/t4c/public_html/wp-includes/class-wp-image-editor.php on line 407
+[20-Apr-2018 09:56:16 UTC] PHP Warning:  fopen(http://t4c.ydodev.com/wp-content/uploads/gravity_forms/4-77ee83c566db22568a804573b4383be2/2018/04/2018-04-10_18292-100x100.png): failed to open stream: HTTP wrapper does not support writeable connections in /home/t4c/public_html/wp-includes/class-wp-image-editor.php on line 407
+[20-Apr-2018 09:56:16 UTC] PHP Warning:  fopen(http://t4c.ydodev.com/wp-content/uploads/gravity_forms/4-77ee83c566db22568a804573b4383be2/2018/04/2018-04-10_19272-150x150.png): failed to open stream: HTTP wrapper does not support writeable connections in /home/t4c/public_html/wp-includes/class-wp-image-editor.php on line 407
+[20-Apr-2018 09:56:16 UTC] PHP Warning:  fopen(http://t4c.ydodev.com/wp-content/uploads/gravity_forms/4-77ee83c566db22568a804573b4383be2/2018/04/2018-04-10_19272-300x135.png): failed to open stream: HTTP wrapper does not support writeable connections in /home/t4c/public_html/wp-includes/class-wp-image-editor.php on line 407
+[20-Apr-2018 09:56:16 UTC] PHP Warning:  fopen(http://t4c.ydodev.com/wp-content/uploads/gravity_forms/4-77ee83c566db22568a804573b4383be2/2018/04/2018-04-10_19272-768x346.png): failed to open stream: HTTP wrapper does not support writeable connections in /home/t4c/public_html/wp-includes/class-wp-image-editor.php on line 407
+[20-Apr-2018 09:56:16 UTC] PHP Warning:  fopen(http://t4c.ydodev.com/wp-content/uploads/gravity_forms/4-77ee83c566db22568a804573b4383be2/2018/04/2018-04-10_19272-1024x462.png): failed to open stream: HTTP wrapper does not support writeable connections in /home/t4c/public_html/wp-includes/class-wp-image-editor.php on line 407
+[20-Apr-2018 09:56:16 UTC] PHP Warning:  fopen(http://t4c.ydodev.com/wp-content/uploads/gravity_forms/4-77ee83c566db22568a804573b4383be2/2018/04/2018-04-10_19272-100x100.png): failed to open stream: HTTP wrapper does not support writeable connections in /home/t4c/public_html/wp-includes/class-wp-image-editor.php on line 407
+[23-Apr-2018 10:13:55 UTC] PHP Notice:  Undefined variable: contact_email in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/custom_grid_function.php on line 15
+[23-Apr-2018 10:13:55 UTC] PHP Notice:  Trying to get property of non-object in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/custom_grid_function.php on line 15
+[23-Apr-2018 10:47:26 UTC] PHP Notice:  Undefined variable: field in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 14
+[24-Apr-2018 09:46:54 UTC] PHP Warning:  file_get_contents(/assets/template/approve_template.html): failed to open stream: No such file or directory in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/custom_grid_function.php on line 16
+[25-Apr-2018 19:17:16 UTC] PHP Notice:  Undefined variable: validation_result in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 14
+[25-Apr-2018 19:17:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 23
+[25-Apr-2018 19:17:16 UTC] PHP Notice:  Undefined index: id in /home/t4c/public_html/wp-content/plugins/gravityforms/includes/addon/class-gf-feed-addon.php on line 734
+[25-Apr-2018 19:17:16 UTC] PHP Notice:  Undefined index: id in /home/t4c/public_html/wp-content/plugins/gravityforms/includes/addon/class-gf-feed-addon.php on line 761
+[25-Apr-2018 19:17:16 UTC] PHP Notice:  Undefined index: id in /home/t4c/public_html/wp-content/plugins/gravityforms/includes/addon/class-gf-feed-addon.php on line 763
+[25-Apr-2018 19:17:16 UTC] PHP Notice:  Undefined index: failed_validation_page in /home/t4c/public_html/wp-content/plugins/gravityforms/form_display.php on line 1738
+[25-Apr-2018 19:17:16 UTC] PHP Notice:  Undefined index: id in /home/t4c/public_html/wp-content/plugins/gravityforms/form_display.php on line 305
+[25-Apr-2018 19:17:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/t4c/public_html/wp-content/plugins/gravityforms/form_display.php on line 313
+[25-Apr-2018 19:17:16 UTC] PHP Notice:  Undefined index: id in /home/t4c/public_html/wp-content/plugins/gravityforms/form_display.php on line 226
+[25-Apr-2018 19:17:16 UTC] PHP Notice:  Undefined index: id in /home/t4c/public_html/wp-content/plugins/gravityformsuserregistration/class-gf-user-registration.php on line 883
+[25-Apr-2018 19:17:16 UTC] PHP Notice:  Undefined index: id in /home/t4c/public_html/wp-content/plugins/gravityforms/form_display.php on line 1861
+[25-Apr-2018 19:17:16 UTC] PHP Notice:  Undefined index: id in /home/t4c/public_html/wp-content/plugins/gravityforms/form_display.php on line 1938
+[25-Apr-2018 19:17:16 UTC] PHP Notice:  Undefined index: id in /home/t4c/public_html/wp-content/plugins/gravityforms/form_display.php on line 3426
+[25-Apr-2018 19:17:16 UTC] PHP Notice:  Undefined index: labelPlacement in /home/t4c/public_html/wp-content/plugins/gravityforms/form_display.php on line 1008
+[25-Apr-2018 19:17:16 UTC] PHP Notice:  Undefined index: id in /home/t4c/public_html/wp-content/plugins/gravityforms/form_display.php on line 1211
+[25-Apr-2018 19:17:16 UTC] PHP Notice:  Undefined index: id in /home/t4c/public_html/wp-content/plugins/gravityforms/form_display.php on line 1214
+[25-Apr-2018 19:17:16 UTC] PHP Notice:  Undefined index: id in /home/t4c/public_html/wp-content/plugins/gravityforms/form_display.php on line 1214
+[25-Apr-2018 19:17:16 UTC] PHP Notice:  Undefined index: button in /home/t4c/public_html/wp-content/plugins/gravityforms/form_display.php on line 1214
+[25-Apr-2018 19:17:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/t4c/public_html/wp-content/plugins/gravityforms/form_display.php on line 1277
+[25-Apr-2018 19:17:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/t4c/public_html/wp-content/plugins/gravityforms/form_display.php on line 386
+[25-Apr-2018 19:17:16 UTC] PHP Notice:  Undefined index: id in /home/t4c/public_html/wp-content/plugins/gravityforms/form_display.php on line 2362
+[25-Apr-2018 19:17:16 UTC] PHP Notice:  Undefined index: id in /home/t4c/public_html/wp-content/plugins/gravityforms/form_display.php on line 2376
+[26-Apr-2018 11:12:17 UTC] PHP Warning:  Missing argument 2 for CptGravity::cpt_load_gf_formdata() in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 155
+[26-Apr-2018 11:12:17 UTC] PHP Warning:  Missing argument 3 for CptGravity::cpt_load_gf_formdata() in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 155
+[26-Apr-2018 11:12:17 UTC] PHP Notice:  Undefined variable: name in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 169
+[26-Apr-2018 12:50:20 UTC] PHP Notice:  Undefined variable: user_created_id in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 91
+[26-Apr-2018 13:16:16 UTC] PHP Notice:  Undefined variable: user_created_id in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 91
+[26-Apr-2018 13:17:43 UTC] PHP Notice:  Undefined variable: user_created_id in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 91
+[26-Apr-2018 19:53:57 UTC] PHP Fatal error:  Can't use function return value in write context in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 22
+[26-Apr-2018 19:54:04 UTC] PHP Fatal error:  Can't use function return value in write context in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 22

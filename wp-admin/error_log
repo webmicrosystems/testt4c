@@ -1,0 +1,30 @@
+[28-Mar-2018 02:21:48 UTC] WordPress database error Specified key was too long; max key length is 1000 bytes for query CREATE TABLE wpui_rg_lead_meta (
+              id bigint(20) unsigned not null auto_increment,
+              form_id mediumint(8) unsigned not null default 0,
+              lead_id bigint(20) unsigned not null,
+              meta_key varchar(255),
+              meta_value longtext,
+              PRIMARY KEY  (id),
+              KEY meta_key (meta_key),
+              KEY lead_id (lead_id),
+              KEY form_id_meta_key (form_id,meta_key)
+            ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, GFForms::init, GFForms::setup, GFForms::setup_database, dbDelta
+[28-Mar-2018 02:21:48 UTC] WordPress database error Table 't4c_wp829.wpui_rg_lead_meta' doesn't exist for query UPDATE wpui_rg_lead_meta lm,wpui_rg_lead l SET lm.form_id = l.form_id
+				WHERE lm.form_id=0 AND lm.lead_id = l.id;
+				 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, GFForms::init, GFForms::setup, GFForms::setup_database, GFForms::fix_lead_meta_form_id_values
+[28-Mar-2018 03:33:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/t4c/public_html/wp-content/plugins/gravityforms/includes/addon/class-gf-addon.php on line 2133
+[16-Apr-2018 10:16:09 UTC] PHP Warning:  require(/home/t4c/public_html/wp-content/themes/twentyseventeen/phpGrid_Enterprise/wp-load.php): failed to open stream: No such file or directory in /home/t4c/public_html/wp-content/themes/twentyseventeen/phpGrid_Enterprise/conf.php on line 3
+[16-Apr-2018 10:16:09 UTC] PHP Fatal error:  require(): Failed opening required '/home/t4c/public_html/wp-content/themes/twentyseventeen/phpGrid_Enterprise/wp-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t4c/public_html/wp-content/themes/twentyseventeen/phpGrid_Enterprise/conf.php on line 3
+[26-Apr-2018 18:56:57 UTC] PHP Notice:  Trying to get property of non-object in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/custom_grid_function.php on line 130
+[26-Apr-2018 19:00:43 UTC] PHP Notice:  Undefined variable: slugdie in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/custom_grid_function.php on line 130
+[26-Apr-2018 19:00:48 UTC] PHP Notice:  Undefined variable: slugdie in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/custom_grid_function.php on line 130
+[26-Apr-2018 19:41:40 UTC] PHP Notice:  Undefined index: only_display in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/custom_grid_function.php on line 118
+[26-Apr-2018 19:41:52 UTC] PHP Notice:  Undefined index: only_display in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/custom_grid_function.php on line 118
+[26-Apr-2018 19:42:17 UTC] PHP Notice:  Undefined index: only_display in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/custom_grid_function.php on line 118
+[28-Apr-2018 08:28:02 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ')' in /home/t4c/public_html/wp-content/themes/twentyseventeen/inc/cpt_gravity_addon.php on line 185
+[01-May-2018 12:00:16 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/t4c/public_html/wp-content/plugins/versionpress/uninstall.php on line 32
+[01-May-2018 12:00:48 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/t4c/public_html/wp-content/plugins/versionpress/uninstall.php on line 32
+[01-May-2018 12:07:52 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[01-May-2018 12:53:33 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[01-May-2018 12:53:52 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[01-May-2018 12:54:09 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
